@@ -10,11 +10,11 @@ This is a simple calculator project for the following operations:
 ## Authors
 * [kelvinMakamu](https://github.com/kelvinMakamu)
 ## Project Set Up
-*`git clone https://github.com/kelvinMakamu/calculator.git`
-*`cd calculator`
-*`atom .`
-*`sublime .`
-*`code .`
+* `git clone https://github.com/kelvinMakamu/calculator.git`
+* `cd calculator`
+* `atom .`
+* `sublime .`
+* `code .`
 ## Technologies Used
 * HTML5
 * JS
