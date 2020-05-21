@@ -8,13 +8,13 @@ let calculateBMI = (height,weight) => {
 
 let convertTemperature = (convertTo,temperatureValue) =>{
 	if(convertTo === "C"){
-		convertedTemperature=temperatureValue "converted into Celsius is: "+((temperatureValue - 32)/1.8);
+		convertedTemperature=temperatureValue+" converted into Celsius is: "+((temperatureValue - 32)/1.8).toFixed(2);
 	}else if(convertTo === "F"){
-		convertedTemperature=temperatureValue "converted into Celsius is: "+((temperatureValue * 1.8) + 32);
+		convertedTemperature=temperatureValue+" converted into Celsius is: "+((temperatureValue * 1.8) + 32).toFixed(2);
 	}else{
-		convertTemperature="BAD METRIC";
+		convertedTemperature="BAD METRIC";
 	}
-	return convertTemperature;
+	return convertedTemperature;
 }
 /******************
 	Adding Two Numbers
@@ -26,11 +26,11 @@ let convertTemperature = (convertTo,temperatureValue) =>{
 /********************
 	Convert Temperature
 ***********************/
-metric=prompt("Please enter the conversion metric. C for Celsius and F for Fahrenheit");
+metric=prompt("Please enter the conversion metric.\n C:\t Celsius \n F:\t Fahrenheit");
 tempValue=parseFloat(prompt("Please enter the temperature value to convert"));
 tempConverted=convertTemperature(metric.toUpperCase(),tempValue);
 if(tempConverted === "BAD METRIC"){
-	tempOutputMessage= "Operation Failed. Invalid conversion metric provided.Enter C for celsius and F for Fahrenheit";
+	tempOutputMessage= "Operation Failed. Invalid conversion metric provided.\nEnter C for celsius and F for Fahrenheit";
 }else{
 	tempOutputMessage= tempConverted;
 }
