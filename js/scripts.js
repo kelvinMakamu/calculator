@@ -19,10 +19,19 @@ let convertTemperature = (convertTo,temperatureValue) =>{
 /******************
 	Adding Two Numbers
 **********************/
-number1=parseInt(prompt("Enter a number: "));
-number2=parseInt(prompt("Enter another number: "));
-totalNumberSum=addNumbers(number1,number2);
-alert(totalNumberSum);
+firstNumeral=parseInt(prompt("\n\nEnter the first number: \n\n"));
+secondNumeral=parseInt(prompt("\n\nEnter the second number: \n\n"));
+totalNumberSum=addNumbers(firstNumeral,secondNumeral);
+totalSumMessage="The total sum is: "+totalNumberSum;
+alert(totalSumMessage);
+/********************
+	Calculating BMI
+***********************/
+userHeight=parseFloat(prompt("\n\nPlease enter height in metres(m): \n\n"));
+userWeight=parseFloat(prompt("\n\nPlease enter weight in kilograms(Kgs): \n\n "));
+userBMI=calculateBMI(userHeight,userWeight);
+userBMIMessage="The BMI of the user is: "+userBMI;
+alert(userBMIMessage);
 /********************
 	Convert Temperature
 ***********************/
