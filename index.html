@@ -15,9 +15,17 @@
 			    <hr>
 			  </div>
 			</div>
+			<div class="row">
+			 <div class="col-md-3 col-lg-3 col-sm-12">
 		    <form id="add">
 		    	<div class="row">
-			    	<div class="col-md-4 col-lg-4 col-sm-12">
+						<div class="col-md-12 col-lg-12 col-sm-12">
+					    <h5>Addition</h5>
+					    <hr>
+					  </div>
+					</div>
+		    	<div class="row">
+			    	<div class="col-md-10 col-lg-10 col-sm-12">
 				       <div class="form-group">
 				        <label for="add1">1st number:</label>
 				        <input id="add1" class="form-control" type="text">
@@ -25,7 +33,7 @@
 				     </div>
 				   </div>
 		    	<div class="row">
-		    		<div class="col-md-4 col-lg-4 col-sm-12">
+		    		<div class="col-md-10 col-lg-10 col-sm-12">
 			       <div class="form-group">
 			       	<label for="add2">2nd number:</label>
 			       	<input id="add2" class="form-control" type="text">
@@ -33,16 +41,133 @@
 			     </div>
 			   </div>
 		    <div class="row">
-	    		<div class="col-md-4 col-lg-4 col-sm-12">
-						<button type="submit" class="btn btn-success pull-left">Add</button>
+	    		<div class="col-md-8 col-lg-8 col-sm-12">
+						<button type="submit" class="btn btn-success btn-block">Add</button>
 					</div>
 				</div> 
-		    </form>
+
 		    <div class="row">
-			    <div class="col-md-4 col-lg-4 col-sm-12">
-				    <div id="output"></div>
+			    <div class="col-md-10 col-lg-10 col-sm-12">
+				    <div id="add-output" class="output"></div>
 				  </div>
 				</div>
+		    </form>
+		  </div>
+
+			 <div class="col-md-3 col-lg-3 col-sm-12">
+		    <form id="subtract">
+		    	<div class="row">
+						<div class="col-md-12 col-lg-12 col-sm-12">
+					    <h5>Subtraction</h5>
+					    <hr>
+					  </div>
+					</div>
+		    	<div class="row">
+			    	<div class="col-md-10 col-lg-10 col-sm-12">
+				       <div class="form-group">
+				        <label for="subtract1">1st number:</label>
+				        <input id="subtract1" class="form-control" type="text">
+				       </div>
+				     </div>
+				   </div>
+		    	<div class="row">
+		    		<div class="col-md-10 col-lg-10 col-sm-12">
+			       <div class="form-group">
+			       	<label for="subtract2">2nd number:</label>
+			       	<input id="subtract2" class="form-control" type="text">
+			       </div>
+			     </div>
+			   </div>
+		    <div class="row">
+	    		<div class="col-md-8 col-lg-8 col-sm-12">
+						<button type="submit" class="btn btn-success btn-block">Subtract</button>
+					</div>
+				</div> 
+
+		    <div class="row">
+			    <div class="col-md-10 col-lg-10 col-sm-12">
+				    <div id="subtract-output" class="output"></div>
+				  </div>
+				</div>
+		    </form>
+		  </div>
+
+			 <div class="col-md-3 col-lg-3 col-sm-12">
+		    <form id="multiply">
+		    	<div class="row">
+						<div class="col-md-12 col-lg-12 col-sm-12">
+					    <h5>Multiplication</h5>
+					    <hr>
+					  </div>
+					</div>
+		    	<div class="row">
+			    	<div class="col-md-10 col-lg-10 col-sm-12">
+				       <div class="form-group">
+				        <label for="multiply1">1st number:</label>
+				        <input id="multiply1" class="form-control" type="text">
+				       </div>
+				     </div>
+				   </div>
+		    	<div class="row">
+		    		<div class="col-md-10 col-lg-10 col-sm-12">
+			       <div class="form-group">
+			       	<label for="multiply2">2nd number:</label>
+			       	<input id="multiply2" class="form-control" type="text">
+			       </div>
+			     </div>
+			   </div>
+		    <div class="row">
+	    		<div class="col-md-8 col-lg-8 col-sm-12">
+						<button type="submit" class="btn btn-success btn-block">Multiply</button>
+					</div>
+				</div> 
+
+		    <div class="row">
+			    <div class="col-md-10 col-lg-10 col-sm-12">
+				    <div id="multiply-output" class="output"></div>
+				  </div>
+				</div>
+		    </form>
+		  </div>
+
+			 <div class="col-md-3 col-lg-3 col-sm-12">
+		    <form id="divide">
+		    	<div class="row">
+						<div class="col-md-12 col-lg-12 col-sm-12">
+					    <h5>Division</h5>
+					    <hr>
+					  </div>
+					</div>
+		    	<div class="row">
+			    	<div class="col-md-10 col-lg-10 col-sm-12">
+				       <div class="form-group">
+				        <label for="divide1">1st number:</label>
+				        <input id="divide1" class="form-control" type="text">
+				       </div>
+				     </div>
+				   </div>
+		    	<div class="row">
+		    		<div class="col-md-10 col-lg-10 col-sm-12">
+			       <div class="form-group">
+			       	<label for="divide2">2nd number:</label>
+			       	<input id="divide2" class="form-control" type="text">
+			       </div>
+			     </div>
+			   </div>
+		    <div class="row">
+	    		<div class="col-md-8 col-lg-8 col-sm-12">
+						<button type="submit" class="btn btn-success btn-block">Divide</button>
+					</div>
+				</div> 
+
+		    <div class="row">
+			    <div class="col-md-10 col-lg-10 col-sm-12">
+				    <div id="divide-output" class="output"></div>
+				  </div>
+				</div>
+		    </form>
+		  </div>
+		  </div>
 		  </div>
 		 </div>
 	  </div>

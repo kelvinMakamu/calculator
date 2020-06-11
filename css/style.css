@@ -59,6 +59,7 @@ textarea {
 }
 
 .btn{
+	padding:5% 5% 5% 5%;
 	text-transform: uppercase;
 }
 
@@ -150,14 +151,21 @@ textarea {
 	margin-bottom: 1.5%;
 }
 
-#output{
+.output{
+	text-align: center;
 	display: none;
-	color:#fff;
-	margin: 2% 0% 1.5% 0%;
+	color:#000;
+	margin: 3% 0% 1.5% 0%;
 	padding: 5% 5% 5% 5%;
 	border-radius: 5%;
-	border:1px solid  #45A29E;
-	background-color: #45A29E;
+	border:1px solid  #ddccbb;
+	background-color: #ddccbb;
+}
+
+form{
+	padding:10% 7.5% 10% 15%;
+	border:2px solid #dedede;
+	box-shadow: 0px 2px 3px #dedede;
 }
 /**************
 
