@@ -21,6 +21,7 @@ let divideNumbers = (firstNumber, secondNumber) => {
 		return numberWithCommas((firstNumber/secondNumber).toFixed(2));
 	}
 }
+
 //User Interface Logic
 $(document).ready(() => {
 	$("#add").submit((event)=> {
